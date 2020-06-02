@@ -18,7 +18,7 @@ We will start by the simplest project and step by step , we will add modules to 
 
 ![GitHub Logo](/images/CMake-Logo-and-Text.png)
 
-
+Adib HANNACHI , adib.hannachi.eng@gmail.com @paris-France
 
 * <h2>chap.1 - Why we should use cmake tool 
  
