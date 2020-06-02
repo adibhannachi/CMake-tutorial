@@ -1,4 +1,4 @@
-# This is an <h1> CMake tutorial
+# <h1> CMake tutorial
 
 ![GitHub Logo](/images/CMake-Logo-and-Text.png)
 
