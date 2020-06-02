@@ -13,7 +13,7 @@ This an easy intoduction about cmake tool , i will talk about
  Cmake is a tool used to generate Makefile , a script used to compile a project . in this tutorial we will interest in compiling c & c++ (legacy & modern) project.
 The importance of this tool, the easy use compared to autotools  and the large use encourage me to write this tutorial.
 This tutorial contains some feedbucks and best practises in how we should use cmake and how to write an awsame CmakeLists.txt file
-We will start by the simplest project and step by step , we will add modules to our project and enhance our cmake files
+# We will start by the simplest project and step by step , we will add modules to our project and enhance our cmake files
 
 ![GitHub Logo](/images/CMake-Logo-and-Text.png)
 
