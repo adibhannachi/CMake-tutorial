@@ -3,7 +3,7 @@
 
 This an easy intoduction about cmake tool , i will talk about 
 * Why we should use cmake tool 
-* A simple example 
+* Hello-world : the simplest CMake project. 
 * Best proctise 
 * Conclusion 
 ![GitHub Logo](/images/CMake-Logo-and-Text.png)
