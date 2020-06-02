@@ -20,7 +20,7 @@ We will start by the simplest project and step by step , we will add modules to 
 
 written by Adib HANNACHI , adib.hannachi.eng@gmail.com @paris-France
 
-* <h2>chap.1 - Why we should use cmake tool 
+<h2>chap.1 - Why we should use cmake tool 
    
  To compile a project, we generally use a script called Makefile, quite simply this file contains a set of commands to execute in order to compile the project 
  
@@ -44,6 +44,6 @@ So with the same CMake files we can compile a project for different workspace (l
 * CMake perfectly manages the rules of target : CMake relaunches itself if detect a modify file  
 
 
-* <h2>chap.2 - Hello-world : the simplest CMake project. 
-* <h2>chap.3 - Build Steps & cmake version   
-* <h2>chap.4 - Best proctise 
+<h2>chap.2 - Hello-world : the simplest CMake project. 
+<h2>chap.3 - Build Steps & cmake version   
+<h2>chap.4 - Best proctise 
