@@ -22,15 +22,18 @@ written by Adib HANNACHI , adib.hannachi.eng@gmail.com @paris-France
 
 * <h2>chap.1 - Why we should use cmake tool 
    
-   
- CMake is a suite of open source and cross-platform tools designed to build, test and package software.  
-CMake is used to control the software compilation process via independent configuration files (independant from the compiler and platform), and generates native makefiles or projects that can be used with the compiler environment of your choice.
+ To compile a project, we generally use a script called Makefile, quite simply this file contains a set of commands to execute in order to compile the project 
+ 
+  
+So to compile a project we need to create a Makefile, but writing this file manually is no longer a good idea, it's a bit complicated for large projects. That's why and for a long time, there are tools / system to generate makefiles like autotools, premake, cmake ...
+
+ CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
+CMake is used to control the software compilation process via independent configuration files (independant from the compiler and platform) named CMakefiles.txt, and generates native Makefiles that can be used with the compiler environment of your choice.
 
 So with the same CMake files we can compile a project to diffrent platfome (linux , windows ...)
-To compile a project, we generally use a script called Makefile, quite simply this file contains a set of commands to execute in order to compile the project  
  
  
-So to compile a project we need to create a Makefile, but writing this file manually is no longer a good idea, it's a bit complicated for large projects. That's why and for a long time, there are tools / system to generate makefiles like for example: Autotools, Premake, CMake .
+
 
 * <h2>chap.2 - Hello-world : the simplest CMake project. 
 * <h2>chap.3 - Build Steps & cmake version   
