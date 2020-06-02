@@ -38,10 +38,10 @@ CMake is used to control the software compilation process via independent config
 So with the same CMake files we can compile a project for different workspace (linux , windows ...) 
  
 <h6> Chap. 1 resumé </h6>  
-  * To compile a project we use a script named Makefile  
-  * Writing Makefile manually is no longer a good idea , it's recommand to use a build system like autotools, premake, cmake..  
-  * CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
-  * CMake perfectly manages the rules of target : CMake relaunches itself if detect a modify file  
+ * To compile a project we use a script named Makefile  
+ * Writing Makefile manually is no longer a good idea , it's recommand to use a build system like autotools, premake, cmake..  
+ * CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
+ * CMake perfectly manages the rules of target : CMake relaunches itself if detect a modify file  
 
 
 * <h2>chap.2 - Hello-world : the simplest CMake project. 
