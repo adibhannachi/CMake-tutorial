@@ -10,7 +10,7 @@ This an easy intoduction about cmake tool , i will talk about
 * <h6> Conclusion 
 
 # <h2> Introduction
-Cmake is a tool used to generate Makefiles , a script used to compile a project and to automate it.   
+Cmake is a tool used to generate Makefiles , a script used to automate project compilation.  
 In this tutorial we will interest in compiling C & C++ (legacy & modern) project.  
 The importance of this tool the large and the easy use (compare to autotools) encourage me to write this tutorial.
 This tutorial contains some feedbucks and best practises in how we should use cmake and how to write an awsame CmakeLists.txt files.  
