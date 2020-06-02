@@ -27,7 +27,13 @@ written by Adib HANNACHI , adib.hannachi.eng@gmail.com @paris-France
   
 So to compile a project we need to create a Makefile, but writing this file manually is no longer a good idea, it's a bit complicated for large projects. That's why and for a long time, there are tools / system to generate makefiles like autotools, premake, cmake ...
 
- CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
+
+
+What convinced me to use cmake that it is fast and it perfectly manages the rules of target reconstruction. For example, if I add a command line parameter for link editing, then the link editing will be redone. If I modify a CMakeLists.txt file and I execute make without relaunching CMake, then CMake relaunches itself (Makefiles have a dependency rule on CMakeLists.txt, not stupid!) I can also simply define the directories headers, compilation options and other parameters specific to each project, specifying whether the parameter should be visible from dependent projects or not.
+
+CMake is pretty well done and is very popular in the C ++ community.
+
+CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
 CMake is used to control the software compilation process via independent configuration files (independant from the compiler and platform) named CMakefiles.txt, and generates native Makefiles that can be used with the compiler environment of your choice.
 
 So with the same CMake files we can compile a project for different workspace (linux , windows ...) 
