@@ -30,8 +30,7 @@ So to compile a project we need to create a Makefile, but writing this file manu
  CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
 CMake is used to control the software compilation process via independent configuration files (independant from the compiler and platform) named CMakefiles.txt, and generates native Makefiles that can be used with the compiler environment of your choice.
 
-So with the same CMake files we can compile a project to diffrent platfome (linux , windows ...)
- 
+So with the same CMake files we can compile a project for different workspace (linux , windows ...) 
  
 
 
