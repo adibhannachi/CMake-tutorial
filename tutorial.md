@@ -44,8 +44,8 @@ So with the same CMake files we can compile a project for different workspace (l
 * CMake perfectly manages the rules of target : CMake relaunches itself if detect a modify file  
 
 
-##<h2>chap.2 - Hello-world : the simplest CMake project. 
+## <h2>chap.2 - Hello-world : the simplest CMake project. 
 
-##<h2>chap.3 - Build Steps & cmake version   
+## <h2>chap.3 - Build Steps & cmake version   
 
-##<h2>chap.4 - Best proctise 
+## <h2>chap.4 - Best proctise 
