@@ -88,7 +88,14 @@ In generaly , we install cmake , and we set the installed version of cmake (cmak
 --> Add an executable to the project using the specified source files.
 	
 	
-	
+To generate the Makefiles : we use this command :
+cmake path_to_the_CMakeLists.txt  
+and then we compile : cd path_to_the_CMakeLists.txt && make
+
+The best practise , is to make a folder for build , and to compile our project in.
+makdir build && cd build
+cmake path_to_the_CMakeLists.txt && make 
+
 
 ## <h2>chap.3 - Build Steps & cmake version   
 
