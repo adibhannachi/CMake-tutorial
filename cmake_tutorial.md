@@ -73,20 +73,20 @@ project(Tutorial)
 add_executable(Tutorial tutorial.cpp)
 ```
 
-Explain code : 
+Explain code :   
 
-* cmake_minimum_required(VERSION <min>[...<max>] [FATAL_ERROR])
---> To set the minimum required version of cmake. in generaly , we install cmake , and we take the version (cmake --version) and we set it as the minimum required version .
+- cmake_minimum_required(VERSION <min>[...<max>] [FATAL_ERROR])  
+--> To set the minimum required version of cmake. in generaly , we install cmake , and we take the version (cmake --version) and we set it as the minimum required version .  
 
-* #
---> to put comments 
+- #  
+--> to put comments   
 
-* project(<PROJECT-NAME> [<language-name>...]) 
+- project(<PROJECT-NAME> [<language-name>...])   
 --> to set the project name
 
-add_executable(<name> [WIN32] [MACOSX_BUNDLE]
+- add_executable(<name> [WIN32] [MACOSX_BUNDLE]
                [EXCLUDE_FROM_ALL]
-               [source1] [source2 ...])
+               [source1] [source2 ...])  
 --> Add an executable to the project using the specified source files.
 	
 	
