@@ -50,7 +50,7 @@ So with the same CMake files we can compile a project for different workspace (l
 
 Suppose we have a simple c++ project with a single file : 
 
-* * tutorial.cpp
+*tutorial.cpp*
 ```
 #include <iostream>
 using namespace std;
@@ -61,7 +61,7 @@ int main () {
 	return 0;
 }
 ```
-The most basic project is an executable built from source code files. For simple projects, a three line CMakeLists.txt file is all that is required. This will be the starting point for our tutorial. Create a CMakeLists.txt file in the Step1 directory that looks like:
+For this kind of simple projects, a three line CMakeLists.txt file is all that is required. This will be the starting point for our tutorial. Create a CMakeLists.txt file in the Step1 directory that looks like:
 
 ```
 cmake_minimum_required(VERSION 3.10)
@@ -70,7 +70,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Tutorial)
 
 # add the executable
-add_executable(Tutorial tutorial.cxx
+add_executable(Tutorial tutorial.cpp)
 ```
 
 ## <h2>chap.3 - Build Steps & cmake version   
