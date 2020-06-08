@@ -32,6 +32,8 @@ What convinced me to use cmake that it is fast and it perfectly manages the rule
 
 CMake is pretty well done and is very popular in the C ++ community.
 
+<h6> What is CMake ? </h6>
+
 CMake is a suite of open source and cross-platform tools designed to build, test and package a portable software.  
 CMake is used to control the software compilation process via independent configuration files (independant from the compiler and platform) named CMakefiles.txt, and generates native Makefiles that can be used with the compiler environment of your choice.
 
