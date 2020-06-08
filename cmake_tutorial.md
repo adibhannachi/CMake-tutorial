@@ -48,6 +48,19 @@ So with the same CMake files we can compile a project for different workspace (l
 
 ## <h2>chap.2 - Hello-world : the simplest CMake project. 
 
+
+The most basic project is an executable built from source code files. For simple projects, a three line CMakeLists.txt file is all that is required. This will be the starting point for our tutorial. Create a CMakeLists.txt file in the Step1 directory that looks like:
+
+```
+cmake_minimum_required(VERSION 3.10)
+
+# set the project name
+project(Tutorial)
+
+# add the executable
+add_executable(Tutorial tutorial.cxx
+```
+
 ## <h2>chap.3 - Build Steps & cmake version   
 
 ## <h2>chap.4 - Best proctise 
