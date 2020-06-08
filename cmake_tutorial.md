@@ -48,7 +48,19 @@ So with the same CMake files we can compile a project for different workspace (l
 
 ## <h2>chap.2 - Hello-world : the simplest CMake project. 
 
+Suppose we have a simple c++ project with a single file : 
 
+* * tutorial.cpp
+```
+#include <iostream>
+using namespace std;
+
+
+int main () {
+	cout << "c plus plus project" << endl;
+	return 0;
+}
+```
 The most basic project is an executable built from source code files. For simple projects, a three line CMakeLists.txt file is all that is required. This will be the starting point for our tutorial. Create a CMakeLists.txt file in the Step1 directory that looks like:
 
 ```
