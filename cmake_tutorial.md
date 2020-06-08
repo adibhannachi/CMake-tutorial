@@ -77,7 +77,7 @@ Explain code :
 
 - cmake_minimum_required(VERSION <min>[...<max>] [FATAL_ERROR])  
 --> To set the minimum required version of cmake.  
-In generaly , we install cmake , and we take the version (cmake --version) and we set it as the minimum required version .  
+In generaly , we install cmake , and we set the installed version of cmake (cmake --version) as the minimum required version. .  
 
 - project(<PROJECT-NAME> [<language-name>...])   
 --> to set the project name
