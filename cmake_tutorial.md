@@ -2,7 +2,6 @@
 # <h2> Introduction
 
 This an easy intoduction about cmake tool , i will talk about 
-* <h6> Introduction
 * <h6>chap.1 - Why we should use cmake tool 
 * <h6>chap.2 - Hello-world : the simplest CMake project. 
 * <h6>chap.3 - Build steps & cmake version   
