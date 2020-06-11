@@ -57,7 +57,8 @@ using namespace std;
 
 int main () {
 	cout << "c plus plus project" << endl;
-	return 0;
+	return 0;FR
+
 }
 ```
 For this kind of simple projects, a three line CMakeLists.txt file is all that is required. This will be the starting point for our tutorial. Create a CMakeLists.txt file in the Step1 directory that looks like:
@@ -102,5 +103,8 @@ cmake path_to_the_CMakeLists.txt && make
 ```
 
 ## <h2>chap.3 - Build Steps & cmake version   
+
+In this chapter we will try to use cmake to compile bigguer project than we have done in chap.2 .
+
 
 ## <h2>chap.4 - Best proctise 
