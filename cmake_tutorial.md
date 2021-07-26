@@ -107,4 +107,4 @@ cmake path_to_the_CMakeLists.txt && make
 In this chapter we will try to use cmake to compile bigguer project than we have done in chap.2 .
 
 
-## <h2>chap.4 - Best proctise 
+## <h2>chap.4 - Best practise 
